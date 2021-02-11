@@ -1,0 +1,32 @@
+@import 'https://fonts.googleapis.com/css?family=Sofia';
+@import 'https://fonts.googleapis.com/css?family=Trirong';
+@import 'https://fonts.googleapis.com/css?family=Audiowide';
+
+.image {
+  padding : 15px;
+  border-radius : 18%;
+}
+.input {
+  background-color : #55DD33;
+  color : white;
+  font-size : 15px;
+  padding-left : 10px;
+  padding-right : 10px;
+  border-radius : 10px; 
+  font-family: "Audiowide", sans-serif;
+}
+.row {
+  background-color :  #f2f2f2;
+}
+.data {
+  padding-left : 40px;
+  padding-right : 30px;
+  line-height : 25px;
+  padding-bottom : 10px;
+}
+.text {
+  font-family: "Sofia", sans-serif;
+}
+.head {
+  font-family: "Trirong", serif;
+}
