@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+* {
+  -ms-overflow-style: none;  /* Internet Explorer */
+  scrollbar-width: none;  /* Firefox */
+}
+
+*::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+body {
+  font-family: 'Yomogi', cursive;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background: #1b1523;
+  color: #fff;
+}
