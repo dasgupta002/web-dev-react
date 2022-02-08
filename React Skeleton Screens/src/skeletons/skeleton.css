@@ -1,0 +1,74 @@
+.wrapper {
+    margin: 20px auto;
+    padding: 10px 15px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.skeleton {
+    background: #ddd;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.text {
+    width: 100%;
+    height: 12px;
+}
+
+.title {
+    width: 50%;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+}
+
+.layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: loading 1.5s infinite;
+}
+
+.pattern {
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: skewX(-20deg);
+    box-shadow: 0 0 30px 30px rgba(255, 255, 255, 0.05);
+}
+
+@keyframes loading {
+    0% {
+        transform: translateX(-150%);
+    }
+    
+    50% {
+        transform: translateX(-60%);
+    }
+    
+    100% {
+        transform: translateX(150%);
+    }
+} 
