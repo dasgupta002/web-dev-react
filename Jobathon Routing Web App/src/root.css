@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Trykker:regular);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Trykker', serif;
+}
+
+body {
+  padding: 20px;
+  background: #2b3452;  
+}
+
+p {
+  margin: 20px 0;
+}
+
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+  background: #bc4123;
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid #bc4123;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+header nav a.active {
+  background: #bc4123;
+}
+
+.breadcrumbs {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.breadcrumbs > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.breadcrumbs .crumb::after {
+  content: '>';
+  margin-left: 10px;
+}
+
+.breadcrumbs .crumb:last-child::after {
+  content: '';
+}
+
+.breadcrumbs .crumb a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero > p, .text > p, .layout > p, .error > p {
+  padding: 30px 0;
+  text-align: justify;
+}
+
+.layout nav {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.layout nav a {
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.layout nav a.hover {
+  border-color: #bc4123;
+}
+
+.layout nav a.active {
+  background-color: #bc4123;
+}
+
+.question {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 5px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+form {
+  margin-top: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 4px;
+}
+
+form input, label span, textarea {
+  display: block;
+} 
+
+form input, textarea {
+  color: #2b3452;
+  width: 100%;
+  padding: 8px;
+  border: 0;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+form label span {
+  margin-bottom: 10px;
+}
+
+.error {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.error a {
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
+.list {
+  margin-top: 30px;
+}
+
+.list p {
+  text-align: justify;
+}
+
+.jobs {
+  padding-top: 30px;
+}
+
+.jobs > a {
+  display: block;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+.jobs > a:hover > p {
+  color: #bc4123;
+}
+
+.jobs p {
+  margin: 0;
+}
+
+.info {
+  margin: 30px 0;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.info > p {
+  text-align: justify;
+}
